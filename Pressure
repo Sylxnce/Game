@@ -8,8 +8,6 @@ iRay  | Programming
 
 ]]
 
-
-
 local Release = "Beta 8"
 local NotificationDuration = 6.5
 local RayfieldFolder = "Rayfield"
@@ -2468,7 +2466,7 @@ for _, TopbarButton in ipairs(Topbar:GetChildren()) do
 			TweenService:Create(TopbarButton, TweenInfo.new(0.7, Enum.EasingStyle.Quint), {ImageTransparency = 0.8}):Play()
 		end)
 	end
-end"
+end
 
 
 function RayfieldLibrary:LoadConfiguration()
