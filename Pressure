@@ -885,7 +885,7 @@ function RayfieldLibrary:CreateWindow(Settings)
 	LoadingFrame.Title.Text = Settings.LoadingTitle or "Rayfield Interface Suite"
 	LoadingFrame.Subtitle.Text = Settings.LoadingSubtitle or "by Sirius"
 	if Settings.LoadingTitle ~= "Rayfield Interface Suite" then
-		LoadingFrame.Version.Text = "Rayfield UI"
+		LoadingFrame.Version.Text = "Sylxnce Hub"
 	end
 	Topbar.Visible = false
 	Elements.Visible = false
@@ -2468,7 +2468,7 @@ for _, TopbarButton in ipairs(Topbar:GetChildren()) do
 			TweenService:Create(TopbarButton, TweenInfo.new(0.7, Enum.EasingStyle.Quint), {ImageTransparency = 0.8}):Play()
 		end)
 	end
-end
+end"
 
 
 function RayfieldLibrary:LoadConfiguration()
